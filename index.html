@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Happy Birthday</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Barlow+Condensed:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="bg" id="bg" aria-hidden="true"></div>
+  <div class="shade" aria-hidden="true"></div>
+  <div class="halftone" aria-hidden="true"></div>
+
+  <!-- the red / blue web frame -->
+  <div class="frame" aria-hidden="true">
+    <div class="ticker"><div class="ticker-track" id="ticker"></div></div>
+    <div class="web tl" data-web></div>
+    <div class="web tr" data-web></div>
+    <div class="web bl" data-web></div>
+    <div class="web br" data-web></div>
+    <div class="stripes"></div>
+  </div>
+
+  <!-- PAGE 1: FRONT -->
+  <section class="page active" id="front" aria-label="Happy birthday">
+    <div class="burst" aria-hidden="true"></div>
+    <p class="kicker">★ today is the day ★</p>
+    <h1 class="hb" id="hb">Happy Birthday</h1>
+    <div class="name" id="name"></div>
+    <p class="tagline" id="tagline"></p>
+    <button class="btn" id="open-gallery">Open the gallery</button>
+  </section>
+
+  <!-- PAGE 2: GALLERY -->
+  <section class="page" id="gallery" aria-label="Gallery">
+    <p class="kicker">★ the moment ★</p>
+    <div class="photo">
+      <div class="photo-inner" id="photo-inner">
+        <span class="ph-fallback">gallery.jpg</span>
+      </div>
+      <p class="caption" id="caption"></p>
+    </div>
+    <div class="eq" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+    <button class="btn blue" id="stop-continue">Message</button>
+  </section>
+
+  <!-- PAGE 3: MESSAGE -->
+  <section class="page scroll" id="message" aria-label="Message">
+    <div class="msg-wrap">
+      <h2 class="msg-title" id="msg-title"></h2>
+      <div class="bubble">
+        <div id="msg-body"></div>
+        <p class="sign" id="msg-sign"></p>
+      </div>
+      <button class="btn" id="start-over">Start over</button>
+    </div>
+  </section>
+
+  <canvas id="fx" aria-hidden="true"></canvas>
+  <div class="wipe" id="wipe" aria-hidden="true"></div>
+  <audio id="audio" preload="auto" loop></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
