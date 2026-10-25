@@ -6,18 +6,16 @@
      audio.mp3        (the music)
    ========================================================= */
 const CONFIG = {
-  name: "Recipient Name",
+  name: "DD",
   tagline: "Legend on the pitch. Hero off it.",
-  galleryCaption: "A moment to remember",
+  galleryCaption: "Stay smiling My Son",
 
-  messageTitle: "This one's for you!",
+  messageTitle: "This one's for you MF!",
   messageParagraphs: [
-    "Write the first part of the birthday message here. Say what makes this person special.",
-    "Add a second paragraph with a wish for the year ahead.",
-    "Finish with something warm that only you could say."
+    "Our play boy is played by a women of his dreams  if you ever feel depressed then just mastarbate yourself with some lotion and cream . Happy birthday jaw titan ✨"
   ],
   signoff: "Happy Birthday!",
-  sender: "From Your Name",
+  sender: "~Shoaib the Goat",
 
   assets: {
     background: "background.jpg",
@@ -268,7 +266,7 @@ window.addEventListener("pointerdown", e => addRipple(e.clientX, e.clientY));
 /* =========================================================
    POW burst and page transitions
    ========================================================= */
-const POWS = ["POW!", "WOW!", "BOOM!", "YES!", "ZAP!"];
+const POWS = ["POW!", "GOAL!", "GOAL!", "GOAL!", "ZAP!"];
 function pow(x, y) {
   if (reduceMotion) return;
   const el = document.createElement("div");
