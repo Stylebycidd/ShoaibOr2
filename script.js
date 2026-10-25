@@ -14,7 +14,7 @@ const CONFIG = {
   messageParagraphs: [
     "Our play boy is played by a women of his dreams  if you ever feel depressed then just mastarbate yourself with some lotion and cream . Happy birthday jaw titan ✨"
   ],
-  signoff: "Happy Birthday!",
+  signoff: "Happy Birthday Son!",
   sender: "~Shoaib the Goat",
 
   assets: {
